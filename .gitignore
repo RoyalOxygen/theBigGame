@@ -1,0 +1,11 @@
+/vendor/
+.env
+/storage/logs/*
+/storage/emails/*
+/storage/sessions/*
+/uploads/photos/*
+/uploads/documents/*
+!/storage/logs/.gitkeep
+!/storage/emails/.gitkeep
+!/uploads/photos/.gitkeep
+!/uploads/documents/.gitkeep

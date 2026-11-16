@@ -1,0 +1,22 @@
+{
+    "name": "narfcard/platform",
+    "description": "National Relief Fund Card (NARFCARD) programme management platform",
+    "type": "project",
+    "require": {
+        "php": ">=8.2",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Controllers\\": "app/controllers/",
+            "App\\Middleware\\": "app/middleware/",
+            "App\\Services\\": "app/Services/"
+        },
+        "files": [
+            "app/helpers/functions.php"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
